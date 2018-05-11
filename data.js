@@ -118,7 +118,7 @@ getCSV()
         .text((d) => {
           return d.Name
         })
-        .style('font-size', '12px'
+        .style('font-size', '12px')
   })
   .catch(err => {
     console.log(err)
